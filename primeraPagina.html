@@ -54,9 +54,116 @@
     </header>
     <section>
         <h2>Sección Principal</h2>
-        <article><p>Contenido de la sección principal.</p></article>
+        <article>
+            <p>Contenido de la sección principal.</p>
+        </article>
 
-    </section>    
+    </section>
+
+    <table width="100%" border="2">
+
+        <thead>
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+                <th colspan="2">Encabezado 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <p>Celda 1</p>
+                </td>
+                <td>
+                    <p>Celda 2</p>
+                </td>
+                <td>
+                    <p>Celda 3</p>
+                </td>
+                <td>
+                    <p>Celda 4</p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <p>Celda 5</p>
+                </td>
+                <td colspan="2">
+                    <p>Celda 6</p>
+                </td>
+                <td>
+                    <p>Celda 7</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Celda 9</p>
+                </td>
+                <td>
+                    <p>Celda 10</p>
+                </td>
+                <td>
+                    <p>Celda 11</p>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+    <form method="get">
+        <input type="text" placeholder="Ingrese su nombre" name="q" />
+        <input type="submit" value="buscar" />
+        <input type="password" placeholder="contraseña" />
+        <input type="week" />
+        <input type="radio" value="correcto" />
+        <input type="checkbox" />
+        <input type="color" />
+        <input type="date" />
+        <input type="datetime-local" />
+        <input type="email" />
+        <input type="file" />
+        <input type="hidden" value="valor oculto" />
+        <input type="month" />
+        <input type="number" />
+        <input type="range" min="0" max="100" />
+        <input type="search" placeholder="Buscar..." />
+        <input type="tel" placeholder="Número de teléfono" />
+        <input type="time" />
+        <input type="url" placeholder="https://ejemplo.com" />
+
+        <div>
+            <label for="">colores</label>
+            <label for=""><input type="radio" value="azul" name="color" /> azul</label>
+            <label for=""><input type="radio" value="rojo" name="color" /> rojo</label>
+            <label for=""><input type="radio" value="amarillo" name="color" /> amarillo</label>
+            <label for=""><input type="radio" value="morado" name="color" /> morado</label>
+            <label for=""><input type="radio" value="naranja" name="color" /> naranja</label>
+        </div>
+
+        <hr>
+        <div>
+            <label for="">colores</label>
+            <label for=""><input type="checkbox" value="azul" name="colores" /> azul</label>
+            <label for=""><input type="checkbox" value="rojo" name="colores" /> rojo</label>
+            <label for=""><input type="checkbox" value="amarillo" name="colores" /> amarillo</label>
+            <label for=""><input type="checkbox" value="morado" name="colores" /> morado</label>
+            <label for=""><input type="checkbox" value="naranja" name="colores" /> naranja</label>
+        </div>
+
+        <div>
+            <select name="fruta" id="">
+                <option value="manzana"> manzana verde </option>
+                <option value="banano"> banano </option>
+                <option value="pera"> pera </option>
+            </select>
+        </div>
+
+        <div>
+            <textarea name="hola" id="" cols="30" rows="10" placeholder="escribe tu mensaje aqui"></textarea>
+        </div>
+
+    </form>
 </body>
 
 </html>
