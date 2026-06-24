@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+
+<body>
+    <div>
+        <h1><strong>Registro de Piloto: Formulario Avanzado</strong></h1>
+        <p>Complete el siguiente formulario para registrarse en el circuito. Todos los campos
+            son obligatorios
+        </p>
+        <form method="get" action="ejercicio4.html">
+            <fieldset>
+                <legend>Información Personal</legend>
+                <br>
+                <div>
+                    <p style="margin: 0; padding: 0;">Nombre completo</p>
+                    <input type="text" name="nombre" style="margin: 0; padding: 0;">
+                </div>
+                <br>
+                <div>
+                    <p style="margin: 0; padding: 0;">Fecha de Nacimiento:</p>
+                    <input type="date" name="Nacimiento" style="margin: 0; padding: 0;">
+                </div>
+                <div>
+                    <p>Designacion de Piloto(Rol)</p>
+                    <input type="radio" name="rol" value="STRIKER">
+                    <label>STRIKER</label>
+                    <br>
+                    <input type="radio" name="rol" value="DEFENDER" />
+                    <label>DEFENDER</label>
+                    <br>
+                    <input type="radio" name="rol" value="SCOUT"/>
+                    <label>SCOUT</label>
+                </div>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Seguridad de la Cuenta</legend>
+                <br>
+                <div>
+                    <p style="margin: 0; padding: 0;"> Correo electronico</p>
+                    <input type="email" name="email" style="margin: 0; padding: 0;" />
+                </div>
+                <br>
+                <div>
+                    <p style="margin: 0; padding: 0;">Contraseña (Clave Encriptada)</p>
+                    <input type="password" name="password" style="margin: 0; padding: 0;" />
+                </div>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Preferencias de Circuito</legend>
+                <br>
+                <div>
+                    <p style="margin: 0; padding: 0;">Intereses y Protocolos:</p>
+                    <input type="checkbox" name="Intereses" value="Overcloking de Hardware"/>
+                    <label>Overcloking de Hardware</label>
+                    <br>
+                    <input type="checkbox" name="Intereses" value="Estética Glitch"/>
+                    <label>Estética Glitch</label>
+                    <br>
+                    <input type="checkbox" name="Intereses" value="Speedrunning Sub-sec" />
+                    <label>Speedrunning Sub-sec</label>
+                    <br>
+                    <input type="checkbox" name="Intereses" value="mulación Legacy 8-bit" />
+                    <label>Emulación Legacy 8-bit</label>
+                </div>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Términos y Condiciones</legend>
+                <br>
+                <div>
+                    <input type="checkbox" name="terminos" value="True"/>
+                    <label>Acepto los protocoles de compromiso y entiendo
+                        que las desconecciones son finales.</label>
+                </div>
+                <br>
+            </fieldset>
+            <br>
+            <table>
+                <tr>
+                    <td>
+                        <button type="submit">Registrar piloto</button>
+                    </td>
+                    <td>
+                        <button type="reset">Limpiar Formulario</button>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <hr>
+        </form>
+        <p>2024 NEON CIRCUIT TOURMAMENTS. Todos los derechos reservados.</p>
+        <br>
+        <table>
+            <tr>
+                <td><a href="">Soporte</a></td>
+                <td>|</td>
+                <td><a href="">Privacidad</a></td>
+                <td>|</td>
+                <td><a href="">Términos</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
