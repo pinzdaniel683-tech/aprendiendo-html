@@ -4,48 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Receta de la abuela</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.google.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
-    <style> 
-    body {
-        background-color: #9c9c9c;
-        
-    }
-    .title{
-        color: green;
-    }
-    .texto_grande{
-        font-size: 50px;
-    }
-    </style>
+
 </head>
 
 <body>
 
-    <header>
-        <h1 align="center">
-            <font color="red" face="Times New Roman">La Cocina de la Abuela</font>
-        </h1>
-        <hr width="80%">
-        <p align="center"><i>"Cocinando con amor desde 1995"</i></p>
-    </header>
+
+    <h1>
+        La Cocina de la Abuela
+    </h1>
+    <hr width="80%">
+    <p class="parrafo">"Cocinando con amor desde 1995"</p>
 
 
-    <table width="90%" align="center" >
+
+    <table class="table">
         <tr>
             <td></td>
 
 
             <td>
-                <h2 class="title">Receta: Pastel de Manzana Tradicional</h2>
+                <h2>Receta: Pastel de Manzana Tradicional</h2>
                 <p>Esta es una receta clásica que ha pasado de generación en generación. Ideal para practicar el uso de
                     etiquetas HTML básicas</p>
 
-                <h3>Ingredientes</h3>
+                <h3 class="title">Ingredientes</h3>
 
 
                 <ul>
                     <li>
-                        <p><b>6</b> manzanas grandes (prefetencialmete Granny Smith) </p>
+                        <p><strong>6</strong> grandes (prefetencialmete Granny Smith) </p>
                     </li>
                     <li>
                         <p>3/4 de taza de azucar blanca</p>
@@ -63,7 +54,7 @@
                         <p>Masa para pastel (superior e inferior)</p>
                     </li>
                 </ul>
-                <hr width="50%" align="left">
+                <hr>
             </td>
         </tr>
 
@@ -75,7 +66,7 @@
 
                 <ol>
                     <li>
-                        <p>Precalentar el horno a <b>200°C (400°F)</b></p>
+                        <p>Precalentar el horno a <strong>200°C (400°F)</strong></p>
                     </li>
                     <li>
                         <p>Pelar, quitar el corazón y rebanar las manzanas </p>
@@ -105,29 +96,29 @@
 
 
 
-    <h3 class="title texto_grande" align="center"><b>Información Nutricional (por porción)</b></h3>
+    <h3>Información Nutricional (por porción)</h3>
 
-    <table width="30%" border="2" align="center" style="background-color: green; ">
+    <table class="info">
         <thead>
             <tr>
-                <th><b>Calorias</b></th>
-                <th><b>Grasas</b></th>
-                <th><b>Carbohidratos</b></th>
-                <th><b>Proteínas</b></th>
+                <th>Calorias</th>
+                <th>Grasas</th>
+                <th>Carbohidratos</th>
+                <th>Proteínas</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td align="center">
+                <td>
                     <p>250 Kcal</p>
                 </td>
-                <td align="center">
+                <td>
                     <p>12 g</p>
                 </td>
-                <td align="center">
+                <td>
                     <p>35 g</p>
                 </td>
-                <td align="center">
+                <td>
                     <p>2 g</p>
                 </td>
             </tr>
@@ -136,105 +127,55 @@
 
     </table>
     <br>
-    <hr width="90%" />
 
-    <table width="90%" align="center">
-        <tr>
-            <td></td>
-            <td>
-                <form method="get">
+    <div>
+        <h2>¡Déjanos tu comentario!</h2>
+        <p>¿Te gusto la receta? Cuéntanos tu experiencia para que otros aprendan</p>
+        <br>
+        <form action="get">
+            <label for="">NOMBRE</label>
+            <input type="text" name="nombre" placeholder="Tu nombre">
+            <p>CORREO ELENTRONICO</p>
+            <input type="email" name="correo" placeholder="correo@ejeplo.com">
+            <p>CALIFICACIÓN</p>
+            <select name="calificacion">
+                <option value="excelente">5 estrellas-excelente</option>
+                <option value="muy bueno">4 estrellas-muy bueno</option>
+                <option value="regular">3 estrellas-regular</option>
+                <option value="malo">2 estrellas-malo</option>
+                <option value="muy malo">1 estrellas-muy malo</option>
+            </select>
+            <p>COMENTARIO</p>
+            <textarea name="comentario" id="comentario" placeholder="Escribe aquí tu comentario"></textarea>
 
-
-                    <h3><b>¡Déjanos tu comentario!</b></h3>
-                    <p>¿Te gustó la receta? Cuentanos tu experiencia para que otros aprendan.</p>
-
-                    <table>
-
-                        <tr>
-
-                            <td>
-                                <label>Nombre:</label>
-                            </td>
-                            <td><input type="text" name="nombre" /></td>
-                        </tr>
-
-
-                        <br>
-                        <tr>
-                            <td>
-                                <label>Correo electronico:</label>
-                            </td>
-                            <td><input type="email" name="correo" /></td>
-                        </tr>
-
-                        <br>
-                        <tr>
-                            <td>
-                                <label>Calificación:</label>
-
-                            </td>
-                            <td>
-                                <select name="calificacion">
-                                    <option value="1">5 estrellas - excelente</option>
-                                    <option value="2">4 estrellas - muy bueno</option>
-                                    <option value="3">3 estrellas - regular</option>
-                                    <option value="4">2 estrellas - malo</option>
-                                    <option value="5">1 estrella - terrible</option>
-                                </select>
-                            </td>
-                        </tr>
-
-                        <br>
-                        <tr>
-                            <td style="vertical-align: top;">
-                                <label>Comentario:</label>
-                            </td>
-                            <td>
-                                <textarea cols="30" rows="8
-                        " placeholder="Escribe aqui tu opinión..."></textarea>
-
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>
-                                <label for=""><input type="checkbox">Deseo recibir mas recetas por correo</label>
-                            </td>
-
-                        </tr>
+            <input type="checkbox" name="acepto" />
+            <span>"Deseo recibir mas recetas por correo"</span>
 
 
-                    </table>
-                    <br>
+            <div class="acciones-formulario">
+                <button type="submit" name="enviar" class="enviar">Enviar comentario</button>
+                <button type="reset" name="borrar" class="borrar">Borrar formulario</button>
+                
+            </div>
 
-                    <table>
+        </form>
 
-                        <tr>
-                            <td width="35%"></td>
-                            <td>
-                                <input type="submit" value="Enviar comentario" />
-                            </td>
-                            <td>
-                                <input type="reset" value="Borrar formulario" />
-                            </td>
+    </div>
 
-                        </tr>
-                </form>
-            </td>
-
-        </tr>
-
-    </table>
-
-    </table>
-    <hr width="90%">
-    <p align="center">1998 La Cocina de la Abuela. Todos los derechos reservados.</p>
     <br>
 
-    <table align="center">
+    <hr width="70%" />
+    <br>
 
-        <tr>
+
+
+
+
+    <p align="center">1998 La Cocina de la Abuela. Todos los derechos reservados.</p>
+
+    <table id="contacto">
+
+        <tr class="link">
             <td>
                 <a href="">Volver al inicio</a>
             </td>

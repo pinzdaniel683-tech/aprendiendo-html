@@ -1,0 +1,185 @@
+body {
+    background-color: #fdf6ec;
+    color: #7a5c4e;
+    font-family: 'Playfair Display', serif;
+}
+
+div {
+    box-sizing: border-box;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 14px;
+    color: #7a5c4e;
+
+}
+
+
+.table {
+    background-color: white;
+    border-radius: 14px;
+    margin: auto;
+    padding: 20px 20px;
+    text-align: left;
+    overflow: hidden;
+
+}
+
+.info {
+    border-radius: 14px;
+    margin: auto;
+    text-align: center;
+    border-spacing: 0;
+    padding: auto;
+    overflow: hidden;
+
+
+}
+
+.table hr {
+    border: none;
+    border-top: 2px dashed #c1623d;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+
+
+
+.title {
+    font-family: 'Playfair Display', serif;
+    border-left: 4px solid #c1623d;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.parrafo {
+    text-align: center;
+}
+
+h2 {
+    color: #c1623d;
+}
+
+strong {
+    color: #c1623d;
+}
+
+hr {
+
+    border-color: #c1623d;
+}
+
+li {
+    display: list-item;
+}
+
+ol {
+    display: block;
+}
+
+
+th {
+    padding: 10px 30px;
+    background-color: #c1623d;
+    color: white;
+
+}
+
+tbody {
+    background-color: white;
+
+}
+
+.link {
+    background-color: #fdf6ec;
+    
+}
+
+div h2 {
+    padding: 0;
+    margin: 0;
+}
+
+div p {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 98%;
+    height: 40px;
+    border-radius: 14px;
+    background-color: #fdf6ec;
+
+}
+
+select {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 14px;
+    background-color: #fdf6ec;
+}
+
+#comentario {
+    background-color: #fdf6ec;
+    border-radius: 14px;
+    width: 97%;
+    min-height: 80px;
+    padding: 10px;
+    margin-top: 10px;
+    resize: vertical
+}
+
+input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+}
+.acciones-formulario{
+    display: inline-flex;
+    width: 100%;
+}
+.enviar{
+    padding: 10px 22px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    background-color: #c1623d;
+    border: none;
+    border-radius: 8px;
+}
+.borrar{
+     padding: 10px 22px;
+    margin: 10px;
+    border: 1px solid #c1623d;
+    text-align: center;
+    color: #c1623d;
+    border-radius: 8px;
+    background-color: white;
+    
+}
+#contacto{
+    background-color: #fdf6ec;
+    margin: auto;
+}
+a{
+        text-decoration: none;
+        color: #c1623d;
+
+}
